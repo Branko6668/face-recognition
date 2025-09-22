@@ -1,0 +1,44 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <list>
+          <option value="beautifulsoup4" />
+          <option value="requests" />
+          <option value="selenium" />
+          <option value="mysqlclient" />
+          <option value="faker" />
+          <option value="tzdata" />
+          <option value="pymysql" />
+          <option value="pymodbus" />
+          <option value="paramiko" />
+          <option value="func-timeout" />
+          <option value="websockets" />
+          <option value="celery" />
+          <option value="eventlet" />
+          <option value="redis" />
+          <option value="flask" />
+          <option value="pytest" />
+          <option value="pytest-timeout" />
+          <option value="pytest-rerunfailures" />
+          <option value="pytz" />
+          <option value="aiohttp" />
+          <option value="flask_apscheduler" />
+          <option value="Fabric" />
+          <option value="PyYAML" />
+          <option value="DBUtils" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="celery-types==0.23.0" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="UnsatisfiedRequirementInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
