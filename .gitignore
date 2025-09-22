@@ -1,0 +1,54 @@
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode 配置文件
+.vscode/
+
+# PyCharm 配置文件
+.idea/
+
+# 项目生成的人脸图像数据
+datasets/
+face_dataset/
+face_recognition_data/
+*.jpg
+*.png
+
+# 模型文件（如 shape_predictor_68_face_landmarks.dat）
+*.dat
+*.h5
+*.pkl
+
+# CSV 特征文件
+*.csv
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+
+# Windows 系统文件
+Thumbs.db
+Desktop.ini
+
+# macOS 系统文件
+.DS_Store
+
+# pip 缓存
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/
